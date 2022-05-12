@@ -1,7 +1,7 @@
 <template>
   <div id="App">
     <header>
-      <h1 class="text-center display-6">Prova</h1>
+      <h1 class="text-center display-6">BOOLFLIX</h1>
       <search-bar @performSearch="search" :loader="loading"/>
     </header>
     <main>
@@ -76,5 +76,6 @@ export default {
 
 <style lang="scss">
   @import './styles/generals.scss';
+  
  
 </style>
