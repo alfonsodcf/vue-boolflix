@@ -76,8 +76,12 @@ export default {
 
 <style lang="scss">
 section{
+    h2{
+        background-color: rgb(153, 2, 2);
+        color: white;
+    }
     .col{
-        border: 2px solid black;
+        
 
         .copertina{
             position: relative ;
