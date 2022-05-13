@@ -3,6 +3,10 @@
     <header>
       <h1 class="text-center display-6">BOOLFLIX</h1>
       <search-bar class="aria" @performSearch="search" :loader="loading"/>
+      <p class="text-center">
+        Ti annoi qui puoi cercare qualunque cosa e noi ti restuireme Movies&Series <br>
+        di no alla noia di si a BOOLFLIX
+      </p>
     </header>
     <main>
       <app-grid :items="movies" title="Movies" :loader="loading"/>
@@ -76,17 +80,30 @@ export default {
 
 <style lang="scss">
   @import './styles/generals.scss';
-  header{
-    background-color: #202020;
+  #App{
+    height: 100vh;
+    background-color:#181818 ;
 
-    h1{
-      color: red;
-      padding-top: 10px;
-    }
-    .aria{
-      padding-bottom: 20px;
-    }
+    header{
+      background-color: #202020;
+
+      h1{
+        color: red;
+        padding-top: 10px;
+      }
+      p{
+        color: gray;
+      }
+      .aria{
+        padding-bottom: 20px;
+      }
     
+    }
+    main{
+      background-color:#181818 ;
+    }
   }
+
+  
  
 </style>
