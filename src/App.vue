@@ -2,7 +2,7 @@
   <div id="App">
     <header>
       <h1 class="text-center display-6">BOOLFLIX</h1>
-      <search-bar @performSearch="search" :loader="loading"/>
+      <search-bar class="aria" @performSearch="search" :loader="loading"/>
     </header>
     <main>
       <app-grid :items="movies" title="Movies" :loader="loading"/>
@@ -76,6 +76,17 @@ export default {
 
 <style lang="scss">
   @import './styles/generals.scss';
-  
+  header{
+    background-color: #202020;
+
+    h1{
+      color: red;
+      padding-top: 10px;
+    }
+    .aria{
+      padding-bottom: 20px;
+    }
+    
+  }
  
 </style>
