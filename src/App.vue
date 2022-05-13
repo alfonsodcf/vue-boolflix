@@ -4,8 +4,8 @@
       <h1 class="text-center display-6">BOOLFLIX</h1>
       <search-bar class="aria" @performSearch="search" :loader="loading"/>
       <p class="text-center">
-        Ti annoi qui puoi cercare qualunque cosa e noi ti restuireme Movies&Series <br>
-        di no alla noia di si a BOOLFLIX
+        Ti annoi? Qui puoi cercare qualunque cosa e noi ti restituiremo Movies&Series <br>
+        di no alla noia, di sì a BOOLFLIX
       </p>
     </header>
     <main>
